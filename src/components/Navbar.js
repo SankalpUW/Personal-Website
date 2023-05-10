@@ -24,7 +24,8 @@ function Navbar(){
             </div>
             <div className="links">
                 <Link to="/"> Home </Link>
-                <Link to="/resume"> Resume </Link>
+                {/* <Link to="/resume"> Resume </Link>  */}
+                <a href="https://drive.google.com/file/d/1VfeRAH14B-fMeBBiK88UWGWeB9YBe8R7/view?usp=sharing" target="_blank"> Resume </a>
             </div>
         </div>
     );
