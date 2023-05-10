@@ -12,7 +12,6 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/resume" element={<Resume />} />
         </Routes>
         <Footer />
       </Router>
