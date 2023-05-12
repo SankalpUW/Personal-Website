@@ -7,7 +7,7 @@ function Home(){
     return (
         <div className="home">
             <div className="about">
-               <h2>Hey there! My name is Sankalp. </h2>
+               <h3>Hey there! My name is Sankalp. </h3>
                <div className="prompt">
                 <p> 
                     I am currently pursuing an Electrical and Computer Engineering degree at the University of Waterloo. My passions lie in computer vision and neural networks, but I also spend a fair amount of time with front-end engineering as well! You can find all my projects on my GitHub page.
@@ -25,11 +25,15 @@ function Home(){
                     </li>
                     <li className="item">
                         <h2>Back-end</h2>
-                        <span>C, C++, Python, Ruby on Rails, MongoDB, SQL , TensorFlow, Pytorch</span>
+                        <span>C, C++, Python, Ruby on Rails, MongoDB, SQL , TensorFlow, Pytorch, OpenCV</span>
+                    </li>
+                    <li className="item">
+                        <h2>Testing/Deployment</h2>
+                        <span>Jenkins, GitHub, Postman, JSON, Azure  </span>
                     </li>
                     <li className="item">
                         <h2>Developer Tools</h2>
-                        <span>Jenkins, Git, Postman, JSON, npm, SQLite, MongoDB  </span>
+                        <span>Linux, SQLite, Git, npm, Agile Methodology </span>
                     </li>
                 </ol>
             </div>
